@@ -13,7 +13,7 @@ python file_monitor.py "<your-folder-path>" --create
 
 Example for your specific folder:
 
-python file_monitor.py "D:\Entertainment\Series\Korean\S\FIM" --create
+python file_monitor.py "D:\Cyber\Task_1\FIM" --create
 
 2. Performing a One-Time Check
 This command will scan the target folder and compare its current state to the last saved baseline. It will report any files that have been created, deleted, or modified since the baseline was made.
@@ -24,7 +24,7 @@ python file_monitor.py "<your-folder-path>" --check
 
 Example for your specific folder:
 
-python file_monitor.py "D:\Entertainment\Series\Korean\S\FIM" --check
+python file_monitor.py "D:\Cyber\Task_1\FIM" --check
 
 3. Continuously Monitoring a Directory
 This command will run an integrity check on a continuous loop, checking for changes at an interval you specify (in seconds). This is useful for real-time security monitoring. Press Ctrl+C to stop the monitor.
@@ -35,4 +35,4 @@ python file_monitor.py "<your-folder-path>" --monitor <seconds>
 
 Example for your specific folder (checking every 30 seconds):
 
-python file_monitor.py "D:\Entertainment\Series\Korean\S\FIM" --monitor 30
+python file_monitor.py "D:\Cyber\Task_1\FIM" --monitor 30
