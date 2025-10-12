@@ -9,7 +9,7 @@ You must run this script from a terminal or command prompt. Make sure you are in
 ### 1. Creating a Baseline
 Before you can check for changes, you must first create a baseline. This command scans your target folder and saves the hash of every file into a baseline.json file.
 
-### Command:
+#### Command:
 
 python file_monitor.py "<your-folder-path>" --create
 
@@ -20,7 +20,7 @@ python file_monitor.py "D:\Cyber\Task_1\FIM" --create
 ### 2. Performing a One-Time Check
 This command will scan the target folder and compare its current state to the last saved baseline. It will report any files that have been created, deleted, or modified since the baseline was made.
 
-Command:
+#### Command:
 
 python file_monitor.py "<your-folder-path>" --check
 
@@ -31,7 +31,7 @@ python file_monitor.py "D:\Cyber\Task_1\FIM" --check
 ### 3. Continuously Monitoring a Directory
 This command will run an integrity check on a continuous loop, checking for changes at an interval you specify (in seconds). This is useful for real-time security monitoring. Press Ctrl+C to stop the monitor.
 
-Command:
+#### Command:
 
 python file_monitor.py "<your-folder-path>" --monitor <seconds>
 
